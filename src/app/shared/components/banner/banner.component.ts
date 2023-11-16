@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent {
-  @Input() src: string = 'assets/imagens/banner-homepage.png';
-  @Input() alt: string = 'Banner da aplicação Jornada Milhas';
+  @Input() src: string = '';
+  @Input() alt: string = '';
 }
