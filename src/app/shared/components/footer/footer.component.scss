@@ -4,6 +4,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  padding: 20px;
   .inner {
     display: flex;
     justify-content: space-between;
@@ -15,11 +16,18 @@
     ul {
       padding: 0;
       list-style: none;
-      &.socials {
-        li {
-          text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+          &:first-child {
+            width: 100%;
+            text-align: center;
+          }
+          &:not(:first-child) {
+            text-align: center;
+          }
         }
       }
     }
   }
-}
