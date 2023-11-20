@@ -16,6 +16,10 @@
     ul {
       padding: 0;
       list-style: none;
+    }
+    ul:not(:first-child) {
+      padding: 0;
+      list-style: none;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
