@@ -13,8 +13,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { ContainerComponent } from './shared/components/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardSearchComponent } from './shared/components/card-search/card-search.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { DepositionsComponent } from './shared/components/depositions/depositions.component';
+import { FormSearchComponent } from './shared/components/form-search/form-search.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,8 @@ import { DepositionsComponent } from './shared/components/depositions/deposition
     ContainerComponent,
     HomeComponent,
     CardSearchComponent,
-    DepositionsComponent
+    DepositionsComponent,
+    FormSearchComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,10 @@ import { DepositionsComponent } from './shared/components/depositions/deposition
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
