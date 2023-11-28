@@ -24,6 +24,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
 import { ModalComponent } from './shared/components/modal/modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { ButtonControlComponent } from './shared/components/button-control/button-control.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     CardSearchComponent,
     DepositionsComponent,
     FormSearchComponent,
-    ModalComponent
+    ModalComponent,
+    ButtonControlComponent
   ],
   imports: [
     BrowserModule,
